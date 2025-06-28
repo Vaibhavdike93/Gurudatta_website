@@ -1,0 +1,193 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:white;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+}
+
+#navbar.scrolled {
+    background-color:lightgreen;
+}
+.menu_color{
+	color: black;
+	text-decoration: none;
+	margin-left: 25px;
+	font-size: 20px;
+}
+.menu_color:hover{
+	color:orange;
+	border-bottom: 3px solid orange;
+}
+.button_1{
+	background-color: #FF2800;
+	height: 50px;
+	width: 150px;
+	border-radius: 10px;
+	border:none;
+	color: white;
+	box-shadow: 0px 0px 3px #044F7C;
+	font-size: 20px;
+	margin-left: 30px;
+}
+.button_1:hover{
+	background-color: orange;
+	color: black;
+}
+.video{
+	height: 550px;
+	width: 100%;
+	object-fit: cover;
+}
+.font_1{
+	font-family: Verdana;
+	color:#334B35;
+	font-weight: bold;
+}
+.about_img{
+	height: 450px;
+	width: 95%;
+	border-radius: 10px;
+	border: 3px solid gray;
+}
+.text_1{
+	text-align: justify;
+	font-family: sans-serif;
+}
+.service_img{
+	height: 400px;
+	width: 100%;
+	border-radius: 10px;
+}
+.font_2{
+	font-family: Verdana;
+	color:#6CB559;
+	font-weight: bold;
+}
+.marquee_img{
+	height: 130px;
+	width: 150px;
+	margin-left: 20px;
+}
+.back_color{
+	background-color:#f0f3bd;
+}
+.slider_img{
+	height: 250px;
+	width: 330px;
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.feed_col{
+	border: 2px solid orange;
+	border-radius: 10px;
+	background-color:#FFFDEF;
+}
+.slider_text{
+	margin-top: 30px;
+	width: 85%;
+	margin-left: 30px;
+}
+.text_2{
+	font-family: sans-serif;
+	color: orange;
+}
+.sliderin_color{
+	background-color: orange !important;
+}
+.contact_col{
+	height: 300px;
+	width: 95%;
+	border: 2px solid orange;
+	border-radius: 10px;
+	background-color:#FFFDEF;
+	margin-left: 10px;
+
+}
+.contact_col i{
+	font-size: 50px;
+	margin-top: 70px;
+}
+.Enquire_btn{
+	height: 50px;
+	width: 100%;
+	background-color: #FF2800;
+	border:none;
+	box-shadow: 0px 0px 3px #044F7C;
+	font-size: 20px;
+	color: white;
+	border-radius: 10px;
+
+}
+.Enquire_btn:hover{
+	background-color: orange;
+	color: black;
+}
+.footer_color{
+	background-color:#6f4518 ;
+}
+.text_3{
+	color:white;
+	font-weight: bold;
+}
+.text_3:hover{
+	color: orange;
+}
+.header_image{
+	background-attachment: fixed;	
+    background-image: linear-gradient(#00000080, #00000080) , url('backgroundimg.jpg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 -5px 10px 0 #000;
+    min-height: 380px;
+}
+.owner_img{
+	height: 230px;
+	width: 230px;
+	text-align: center;
+/*	margin-left: 150px;*/
+	border-radius: 50%;
+	margin-top: 5px;
+
+}
+.product_class{
+	height: 300px;
+	width: 95%;
+	border: 2px solid orange;
+	border-radius: 10px;
+	background-color:#FFFDEF;
+	margin-left: 10px;
+}
+.product_size{
+	height: 90%;
+	width: 90%;
+}
+.Feedback_class{
+	height: 400px auto;
+	width: 95%;
+	border: 2px solid orange;
+	border-radius: 10px;
+	background-color:#FFFDEF;
+	margin-left: 10px;
+
+}
+.farmer_img{
+	height: 180px;
+	width: 180px;
+	border-radius: 10px;
+	border: 2px solid orange;
+/*	margin-left: 150px;*/
+}
